@@ -1,0 +1,7 @@
+Gemfile
+Gemfile.lock
+fastlane/Appfile
+fastlane/Fastfile
+fastlane/Pluginfile
+fastlane/README.md
+fastlane/report.xml

@@ -17,6 +17,10 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor redColor];
     // Do any additional setup after loading the view.
+    UIView *backView = [[UIView alloc]init];
+    backView.backgroundColor = [UIColor yellowColor];
+    backView.frame = CGRectMake(100, 100, 100, 100);
+    [self.view addSubview:backView];
 }
 
 
