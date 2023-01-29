@@ -21,6 +21,11 @@
     backView.backgroundColor = [UIColor yellowColor];
     backView.frame = CGRectMake(100, 100, 100, 100);
     [self.view addSubview:backView];
+    
+    UIView *secView = [[UIView alloc]init];
+    secView.backgroundColor = [UIColor blackColor];
+    secView.frame = CGRectMake(100, 300, 100, 100);
+    [self.view addSubview:secView];
 }
 
 
